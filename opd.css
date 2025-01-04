@@ -1,0 +1,109 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    background-color: white;
+  
+  
+  }
+
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  
+  }
+
+  #main-header{
+    background-color: #FF9800;
+    color:#fff;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 8px 1px #333;
+   
+  }
+
+  .logo {
+    width:150px;
+    float: left;
+    vertical-align: 20px;
+   
+   }
+
+  .opd{
+    margin: auto;
+    width: 90%;
+    border: 2px solid #FF9800;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 0%;
+    
+  }
+
+   .opd h2{
+    text-align: center;
+    color: #FF9800;
+   }
+
+
+
+   #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FF9800;
+    color: white;
+}
+
+#main-footer{
+  background: #FF9800;
+  color: #fff;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+#navbar{
+  background-color:#FF9800;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0px 2px 8px 1px #333;
+
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+#navbar a:hover {
+  background-color: #212121;
+  color: white;
+}
+
+#navbar a:active { 
+  background-color: #212121;
+}
+
